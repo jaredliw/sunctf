@@ -1,0 +1,33 @@
+{
+  "Docker": {
+    "Common": {
+      "API URL": "unix:///var/run/docker.sock",
+      "Credentials": "",
+      "Swarm Nodes": "linux-1"
+    },
+    "Standalon Containers": {
+      "Auto Connect Network": "ctfd_frp-containers",
+      "Dns Setting": "127.0.0.1"
+    },
+    "Grouped Containers": {
+      "Auto Connect Containers": "ctfd_frpc_1",
+      "Multi-Container Network Subnet": "172.2.0.0/16",
+      "Multi-Container Network Subnet New Prefix": "24"
+    }
+  },
+  "Router": {
+    "Router type": "frp",
+    "API URL": "http://frpc:7400",
+    "Http Domain Suffix": "",
+    "External Http Port": "80",
+    "Direct IP Address": "localhost",
+    "Direct Minimum Port": "28000",
+    "Direct Maximum Port": "28100",
+    "Frpc config template": ""
+  },
+  "Limits": {
+    "Max Container Count": "100",
+    "Max Renewal Times": "5",
+    "Docker Container Timeout": "3600"
+  }
+}
