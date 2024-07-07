@@ -112,6 +112,7 @@ networks:
   frp-containers:
     driver: overlay
     internal: true
+    attacchable: true
     ipam:
       config:
         - subnet: 172.2.0.0/16
