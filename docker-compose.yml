@@ -74,7 +74,7 @@ services:
     image: glzjin/frp:latest
     restart: always
     volumes:
-      - ./frps:/conf/
+      - ./conf/frps:/conf
     entrypoint:
       - /usr/local/bin/frps
       - -c
@@ -90,7 +90,7 @@ services:
     image: glzjin/frp:latest
     restart: always
     volumes:
-      - ./frpc:/conf/
+      - ./conf/frpc:/conf
     entrypoint:
       - /usr/local/bin/frpc
       - -c
