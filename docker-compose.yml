@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   ctfd:
     build: .
@@ -48,9 +46,9 @@ services:
     image: mariadb:10.11
     restart: always
     environment:
-      - MARIADB_ROOT_PASSWORD=th3@m1ghtY
-      - MARIADB_USER=csc
-      - MARIADB_PASSWORD=j4r3d@@@
+      - MARIADB_ROOT_PASSWORD=CSC@Sunw4y
+      - MARIADB_USER=ctfd
+      - MARIADB_PASSWORD=ctfd
       - MARIADB_DATABASE=ctfd
       - MARIADB_AUTO_UPGRADE=1
     volumes:
@@ -112,7 +110,7 @@ networks:
   frp-containers:
     driver: overlay
     internal: true
-    attacchable: true
+    attachable: true
     ipam:
       config:
         - subnet: 172.2.0.0/16
