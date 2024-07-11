@@ -45,5 +45,6 @@ cp -r sunctf/conf/* CTFd/conf/
 Start:
 
 ```bash
+cd CTFd/
 docker compose up --build -d
 ```
