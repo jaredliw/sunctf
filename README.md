@@ -49,3 +49,5 @@ Start:
 cd CTFd/
 docker compose up --build -d
 ```
+
+In the admin panel, set values as in `whale.config.json`.
