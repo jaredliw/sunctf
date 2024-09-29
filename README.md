@@ -31,7 +31,9 @@ docker node update --label-add "name=linux-1" $(docker node ls -q)
 Clone CTFd and CTFd-whale to local:
 
 ```bash
-git clone https://github.com/CTFd/CTFd --depth=1
+wget https://github.com/CTFd/CTFd/archive/refs/tags/3.7.3.tar.gz
+tar -xzvf 3.7.3.tar.gz
+mv CTFd-3.7.3/ CTFd/
 git clone https://github.com/frankli0324/CTFd-Whale CTFd/CTFd/plugins/ctfd-whale --depth=1
 ```
 
