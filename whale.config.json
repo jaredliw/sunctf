@@ -29,5 +29,8 @@
     "Max Container Count": "100",
     "Max Renewal Times": "5",
     "Docker Container Timeout": "3600"
-  }
+  },
+  "Challenges": {
+    "Subdomain Template": "{{ none }}",
+    "Flag Template": "{{ none }}"
 }
