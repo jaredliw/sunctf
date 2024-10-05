@@ -1,0 +1,3 @@
+[submodule "SunwayCTF-challs"]
+	path = SunwayCTF-challs
+	url = https://github.com/Wowiee3/SunwayCTF-challs.git
