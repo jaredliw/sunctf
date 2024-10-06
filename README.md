@@ -1,6 +1,16 @@
-# SunCTF
+<p align="center">
+    <img src="/logo.png" alt="SunCTF logo" width="300">
+</p>
+
+<h3 align="center">SunCTF 2024</h3>
+
+<p align="center">
+  A CTF hosted by Sunway Cyber Security Club (CSC).
+</p>
 
 ## Setup
+
+The instructions were tested and ran on Ubuntu. Alternatively, using WSL on Windows will work as well.
 
 [Install Docker](https://docs.docker.com/engine/install/ubuntu/):
 
@@ -53,3 +63,13 @@ docker compose up --build -d
 ```
 
 In the admin panel, set values as in `whale.config.json`.
+
+## Challenges
+
+The challenges are in [Wowiee3/SunwayCTF-challs](https://github.com/Wowiee3/SunwayCTF-challs/tree/d0ced6536026c30d99367b7b6773ecda3032fa29).
+Docker images for dynamic challenges are [here](https://hub.docker.com/u/jaredliw).
+
+## Archive
+
+To revert the system to its state at the end of the competition, go to the admin panel and import the
+ZIP file located in the `archive/` folder.
